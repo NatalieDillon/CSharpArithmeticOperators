@@ -32,7 +32,7 @@ namespace CSharpArithmeticOperators
 
 		
 		// Constants are used for values that will not change whilst the program is running.
-		public const decimal VatRate = 0.2m;
+		private const decimal VatRate = 0.2m;
 
 		public static decimal CalculateEatInCost(decimal foodCost)
 		{
